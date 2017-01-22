@@ -23,6 +23,34 @@ The image file can be `.svg` (recomended), `.png`, `.gif`, `.jpg`, or `.tiff` fo
 - http://fontawesome.io/
 - http://ionicons.com/
 
+## GUI
+
+It's recomended your `.app` have a GUI if you want to interact with a user (since the terminal is not shown).
+
+- [Go](http://awesome-go.com/#gui)
+- [Rust](https://github.com/kud1ing/awesome-rust#gui)
+- [C++](https://github.com/fffaraz/awesome-cpp#gui)
+
+## Example
+
+There is an examples folder contains a GUI example. Download an [icon](http://ionicons.com/#quote).
+
+### Go
+
+		cd examples/Go/
+		go build *.go
+		cd ../../
+		./setup.sh hello ion-quote.svg
+		mv example/Go/hello hello.app/Contents/MacOS
+
+### Rust
+
+todo
+
+### C++
+
+todo
+
 ## MIT License
 
 Copyright (c) 2017 David Pennington
