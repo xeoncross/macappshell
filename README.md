@@ -8,7 +8,7 @@ Creates a Mac OSX .app folder (complete with icons) ready for your binary file. 
 
 2. Pass the name of your Application and an image file for the icon.
 
-    $ ./setup.sh MyNewApp app-icon.svg
+		$ ./setup.sh MyNewApp app-icon.svg
 
 3. Then just copy the binary file into the folder
 
