@@ -1,6 +1,6 @@
 # Mac App Shell
 
-Creates a Mac OSX .app folder (complete with icons) ready for your binary file. Perfect for Golang, C++, Rust, or any other language to compiles to a binary file on OSX.
+Creates a Mac OSX .app folder (complete with icons) ready for your binary file. Perfect for Golang, C++, Rust, or any other language that compiles to a binary file on OSX.
 
 ## Usage
 
@@ -33,9 +33,11 @@ It's recomended your `.app` have a GUI if you want to interact with a user (sinc
 
 ## Example
 
-There is an examples folder contains a GUI example. Download an [icon](http://ionicons.com/#quote).
+There is an examples folder contains a GUI example. Download an [icon](http://ionicons.com/#quote) to use.
 
 ### Go
+
+Build the go project, run the macappshell script, and then move the go binary into the new `.app` folder.
 
 		cd examples/Go/
 		go build *.go
