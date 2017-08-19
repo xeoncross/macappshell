@@ -45,6 +45,8 @@ cat > "$APPNAME.app/Contents/Info.plist" <<END
   <integer>0</integer>
   <key>IFMinorVersion</key>
   <integer>1</integer>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key><true/>
 </dict>
 </plist>
 END
