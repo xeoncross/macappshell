@@ -54,7 +54,7 @@ END
 cp $ICONNAME "$APPNAME.app/Contents/Resources/"
 cd "$APPNAME.app/Contents/Resources/"
 
-fileName=$ICONNAME
+fileName="$(basename $ICONNAME)"
 postfix=${fileName##*.}
 
 if [[ $postfix == 'svg' ]]; then
